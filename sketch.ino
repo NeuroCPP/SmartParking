@@ -1,5 +1,3 @@
-#include <Arduino.h>
-
 const int trigPins[8] = {5, 4, 14, 27, 26, 25, 33, 12};  
 const int echoPins[8] = {18, 19, 21, 22, 23, 32, 35, 34};  
 const char* sensorNames[8] = {  
@@ -11,7 +9,7 @@ void setup() {
     Serial.begin(115200);
     for (int i = 0; i < 8; i++) {
         pinMode(trigPins[i], OUTPUT);
-        pinMode(echoPins[i], INPUT);
+        pinMode(echoPins[i], INPUT);    
     }
 }
 

@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = '.\ESP32-WROOM-32-AT-V3.4.0.0\esp-at.bin'
+elf = '.\ESP32-WROOM-32-AT-V3.4.0.0\esp-at.elf'
